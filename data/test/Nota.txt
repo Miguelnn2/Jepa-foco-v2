@@ -1,0 +1,2 @@
+Aquí van las imágenes nuevas que el modelo no ha visto y que sirven
+Para intentar predecirlas
