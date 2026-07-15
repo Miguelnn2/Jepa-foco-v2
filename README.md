@@ -29,7 +29,7 @@ jepa_foco_v2/
 └── data/            # 📁 Directorio de Datos (Organizado por el usuario)
     ├── train/       # Subcarpetas para entrenar (ej: train/gato/, train/perro/)
     └── test/        # Carpeta donde arrojas las imágenes nuevas a predecir
-
+```
 Explicación de los Componentes
 ​1. engine.py (La Red Neuronal)
 ​Define la arquitectura JEPAEngine. Implementa la capa de proyección lineal que emula el espacio latente del JEPA, el predictor de saliencia encargado de calcular el mapa de atención de la periferia ocre, y una memoria GRUCell que actúa como memoria de trabajo acumulando la información secuencial de cada sacada para la clasificación final.
